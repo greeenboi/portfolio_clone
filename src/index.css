@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,3 +19,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bgclass {
+  position: relative;
+  
+  overflow: hidden;  
+  /* z-index: 2; */
+  background: url('./assets/bgcard.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(200px) ,url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==');
+}
+
+.person{
+  background: url('./assets/person.png');
+}
