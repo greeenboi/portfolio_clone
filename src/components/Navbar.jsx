@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <nav className='w-full h-auto mt-4 mb-6 flex flex-row justify-between items-center text-black font-afacad'>
         <Link to="Home" className='mx-2 hover:cursor-pointer' smooth={true}>
-            <div className='flex flex-row justify-start items-center'>Your Name</div>
+            <div className='flex flex-row justify-start items-center'>
+                <div className='w-4 h-4 rounded-full bg-teal-950 mx-2'></div>
+                Your Name
+            </div>
         </Link>
         
         <ul className='flex flex-row justify-end items-center list-none'>
