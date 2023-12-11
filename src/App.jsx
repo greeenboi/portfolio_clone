@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import './App.css'
 import Home from './components/Home'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
   
@@ -17,12 +18,8 @@ function App() {
         <section id="Projects" className='w-full h-auto flex items-center justify-center my-6 '>
           <Projects />
         </section>
-        <section id="Contact" className='w-full h-screen'>
-          <div className='flex flex-col justify-center items-center'>
-            <h1 className='text-4xl font-bold'>Contact Me</h1>
-            <h2 className='text-2xl font-semibold'>A job title</h2>
-            <p className='text-lg font-medium'>A short description about you</p>
-          </div>
+        <section id="Contact" className='w-full h-auto my-6'>
+          <Contact />
         </section>
       </section>
     </main>
