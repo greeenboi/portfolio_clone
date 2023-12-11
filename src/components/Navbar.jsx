@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
         </Link>
         
-        <Button ref={btnRef} onClick={handleDrawerOpen} display={{ base: "block", md: "none" }}>
+        <Button ref={btnRef} onClick={handleDrawerOpen} display={{ base: "block", lg: "none" }}>
           <RxHamburgerMenu />
         </Button>
 
