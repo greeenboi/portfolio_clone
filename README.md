@@ -15,7 +15,7 @@ First Clone the repo:
 
 ```bash
 
-git clone
+git clone -b starter_template
     
 ```
 
@@ -35,11 +35,15 @@ npm run dev
     
 ```
 
+*** 
+
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
 Starter Template: Clone the starter template from [here](https://github.com/greeenboi/portfolio_clone/tree/starter_template)
 
-Gists:
+***
+
+# Gists:
 
 [Installing Dependecies](https://gist.github.com/greeenboi/874aa842409ee5e1f4771b09394afca1)
 
